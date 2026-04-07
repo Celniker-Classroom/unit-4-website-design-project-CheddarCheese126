@@ -18,3 +18,31 @@ img{  border-radius: 50px;
 
 th{font-size: 50;
   padding: 40px;}
+.navbar ul{
+  list-style-type: none;
+  background-color: rgb(60, 60, 156);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a{
+  color: rgb(160, 221, 250);
+  padding-left: 140.5px;
+  padding-right: 140.5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover{
+  background-color: rgb(10, 23, 99);
+}
+.navbar li{
+  float: left;
+}
+.navbar {
+  border: 5px;
+  border-radius: 10px;
+  border-style: inset;
+  border-color: rgb(13, 91, 160);
+}
